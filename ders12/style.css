@@ -1,0 +1,41 @@
+.container{
+    max-width: 1040px;
+    width: 100%;
+    margin: auto;
+
+}
+main{
+    max-width: 1145px;
+    width: 85%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.a{
+    text-decoration: none;
+    color: black;
+}
+.product, .item{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 110px;
+    height: 145px;
+}
+.item{
+    margin-top: 40px;
+}
+.box{
+   width: 5px;
+    margin: 0px 0px 0px -30px;
+}
+
