@@ -11,8 +11,6 @@ body{
     grid-template-columns: auto auto auto;
    gap: 1px;
    margin-bottom: 80px;
-   animation-name: animate1;
-   animation-duration: 2s;
   }
 img{
     width: 100%;
@@ -27,6 +25,84 @@ h1{
     margin-top: 100px;
     margin-bottom: 5px;
 }
+.grid-item-1{
+    animation-name: animate1;
+   animation-duration: 6s;
+}
+.grid-item-9,
+.grid-item-2{
+    animation-name: animate2;
+    animation-duration: 6s;
+}
+.grid-item-6,
+.grid-item-7{
+    animation-name: animate6;
+    animation-duration: 6s;
+}
+.grid-item-3,
+.grid-item-4{
+    animation-name: animate3;
+    animation-duration: 6s;
+}
+.grid-item-8{
+    animation-name: animate8;
+    animation-duration: 6s;
+}
+.grid-item-5{
+    animation-name: animate5;
+    animation-duration: 6s;
+}
 @keyframes animate1 {
-.grid-item-1
+   0%{
+        transform: translateX(0);
+    }
+  50%{
+    transform: translateX(260px);
+  }
+  100%{
+    transform: translate(258px,150px);
+  }
+}
+@keyframes animate5 {
+    0%{
+         transform: translateX(0);
+     }
+   50%{
+     transform: translateY(150px);
+   }
+   100%{
+     transform: translate(258px,150px);
+   }
+ }
+@keyframes animate2 {
+    0%{
+       transform: translate(0);
+    }
+    100%{
+        transform: translateX(-260px);
+    }
+}
+@keyframes animate6 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(-150px);
+    }
+}
+@keyframes animate3 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(150px);
+    }
+}
+@keyframes animate8 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(-300px);
+    }
 }

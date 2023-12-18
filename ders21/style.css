@@ -1,0 +1,36 @@
+ul{
+    list-style-type: none;
+}
+
+.img{
+    display: flex;
+}
+img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    overflow-clip-margin: content-box;
+}
+.btn{
+   position: sticky;
+   bottom: 20px;
+}
+.item,
+.menu,
+.menu2,
+.item2{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1140px;
+    width: 85%;
+    margin: auto;
+}
+.img1{
+    max-width: 40%;
+}
+footer{
+    display: flex;
+    margin-top: 10rem;
+}
