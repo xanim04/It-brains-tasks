@@ -1,0 +1,16 @@
+.bd-placeholder-img{
+    height: 570px;
+}
+.rounded-circle {
+    border-radius: 50%!important;
+    width: 140px!important;
+    aspect-ratio: auto 140 / 140;
+    height: 140px!important;
+    margin-top: 50px!important;
+}
+.col-lg-4{
+    text-align: center;
+}
+.bd-placeholder-img{
+    height: 500px;
+}
